@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+main {
+    background-color: #f8eee2;
+    padding: 4em;
+}
+header {
+    background-color: #004243;
+    padding: 2em;
+    text-align: center;
+    color:white;
+}
+footer {
+    background-color: #004243;
+    padding: 1.5em;
+    text-align: center;
+    color:white;
+    position: absolute;
+    bottom: 0;
+    width: 97.5%;
+}
+input[type=text] {
+    border-radius: 15px;
+    border: 2px solid rgb(163, 163, 163);
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+div.dois input, button {
+    background-color: #004243;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    cursor: pointer;
+}
+div.dois a {
+    text-decoration: none;
+    color: white;
+}
+h1.titulo2, div.dois, form {
+    padding: 2em;
+    background-color: #fff8ef;
+    
+}
+h1.titulo2 {
+    padding-bottom: 0;
+}
+div.form-container {
+    margin-left: 1em;
+}
+main {
+    min-height: 43em;
+}
