@@ -33,6 +33,7 @@ else
 	<title>Controle Funcionarios</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="./bunitin.css" media="screen" />
 </head>
 <body>
 	<header>
@@ -57,7 +58,7 @@ while ($funcionario = mysqli_fetch_assoc($resultado) )
 {
 	
 	echo "<div class='Funcionarios'><a href='ver_funcionario.php?id=".$funcionario['id']."&id_gerente=".$id."'>";
-		echo "<h2>" . $funcionario['titulo'] . "</h2>";
+		echo "<h2>" . $funcionario['nome'] . "</h2>";
 		echo "<p>De: " . $nome . "</p>";
 		
 	echo "</a>";
